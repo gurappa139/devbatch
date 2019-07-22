@@ -1,0 +1,14 @@
+
+
+hi im dovelp fundstransfer
+[TestClass]
+    public class BasicScenarios
+    {
+        protected const string WindowsApplicationDriverUrl = "http://127.0.0.1:4723/wd/hub";
+        protected static RemoteWebDriver CalculatorSession;
+        protected static RemoteWebElement CalculatorResult;
+        protected static string OriginalCalculatorMode;
+
+        [ClassInitialize]
+        public static void Setup(TestContext context)
+
